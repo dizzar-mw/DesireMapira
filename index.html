@@ -1,0 +1,141 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Desire Mapira — Musician • Artist • Web Designer • Decorator</title>
+  <meta name="description" content="Desire Mapira — Afro Dancehall musician, realistic drawing artist, web designer and wedding/event decorator based in Malawi. Contact: 0882772100 | desiremapira@gmail.com" />
+  <style>
+    :root{--accent:#ffb703;--dark:#0f1724;--muted:#6b7280;--glass: rgba(255,255,255,0.06)}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, 'Helvetica Neue', Arial; margin:0;background:linear-gradient(180deg,#fffaf0 0%, #fff 40%);color:#0b1220}
+    header{display:flex;align-items:center;justify-content:space-between;padding:28px;max-width:1100px;margin:0 auto}
+    .brand{display:flex;gap:16px;align-items:center}
+    .logo{width:64px;height:64px;background:var(--accent);border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#0b1220}
+    nav a{margin-left:18px;color:var(--dark);text-decoration:none;font-weight:600}
+    .hero{max-width:1100px;margin:10px auto 30px;padding:28px;display:grid;grid-template-columns:360px 1fr;gap:28px;align-items:center}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.85), rgba(255,255,255,0.7));border-radius:12px;padding:18px;box-shadow:0 10px 30px rgba(12,18,36,0.06)}
+    .portrait{width:100%;height:360px;border-radius:10px;background:url('portrait.jpg') center/cover no-repeat}
+    h1{margin:0 0 8px;font-size:28px}
+    p.lead{margin:0;color:var(--muted)}
+    .badges{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
+    .badge{background:var(--glass);padding:6px 10px;border-radius:999px;font-weight:600;color:var(--dark);font-size:13px}
+    .about{padding:18px}
+    .cols{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
+    .services{display:flex;flex-direction:column;gap:12px}
+    .service{background:linear-gradient(180deg,#fff,#fff);padding:12px;border-radius:10px;border:1px solid rgba(12,18,36,0.04)}
+    .portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .portfolio-item{height:120px;border-radius:8px;background:#eee;display:flex;align-items:center;justify-content:center;color:#444;font-weight:700}
+    footer{max-width:1100px;margin:36px auto;padding:18px;color:var(--muted);font-size:14px}
+    .contact-card{display:flex;flex-direction:column;gap:10px}
+    .btn{background:var(--dark);color:white;padding:10px 14px;border-radius:8px;border:none;cursor:pointer}
+    @media (max-width:880px){.hero{grid-template-columns:1fr} .cols{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">DM</div>
+      <div>
+        <div style="font-weight:800">Desire Mapira</div>
+        <div style="font-size:13px;color:var(--muted)">Afro Dancehall musician • Realistic artist • Web designer • Wedding decorator</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <main class="hero">
+    <div class="card">
+      <div class="portrait" id="portrait"></div>
+      <div style="margin-top:12px" class="contact-card">
+        <div style="font-weight:700">Contact</div>
+        <div>Phone: <a href="tel:+265882772100">0882772100</a></div>
+        <div>Email: <a href="mailto:desiremapira@gmail.com">desiremapira@gmail.com</a></div>
+        <div style="display:flex;gap:8px;margin-top:8px">
+          <a class="btn" href="mailto:desiremapira@gmail.com?subject=Booking%20Inquiry">Contact for Booking</a>
+          <button class="btn" id="downloadVCard">Download vCard</button>
+        </div>
+      </div>
+    </div><div>
+  <div class="card about">
+    <h1>Hi — I’m Desire</h1>
+    <p class="lead">A passionate Afro Dancehall musician and visual artist who loves creating lively music and realistic art. I also design websites and decorate wedding venues and event spaces. I combine rhythm, color and detail to bring moments to life.</p>
+
+    <div class="badges">
+      <span class="badge">Afro Dancehall</span>
+      <span class="badge">Realistic Drawing</span>
+      <span class="badge">Web Design</span>
+      <span class="badge">Wedding Decor</span>
+    </div>
+
+    <div class="cols">
+      <div>
+        <h3 id="services">Services I Offer</h3>
+        <div class="services">
+          <div class="service">
+            <strong>Music & Performance</strong>
+            <div style="color:var(--muted);font-size:13px">Live shows, recordings, collaborations, and event performances in Afro Dancehall style.</div>
+          </div>
+
+          <div class="service">
+            <strong>Realistic Drawing</strong>
+            <div style="color:var(--muted);font-size:13px">Commissions for portraits and realistic artworks — framed pieces or digital files.</div>
+          </div>
+
+          <div class="service">
+            <strong>Web Design</strong>
+            <div style="color:var(--muted);font-size:13px">Simple and modern websites for artists, small businesses, or personal portfolios.</div>
+          </div>
+
+          <div class="service">
+            <strong>Decoration & Event Styling</strong>
+            <div style="color:var(--muted);font-size:13px">Wedding and event decorating: floral, lighting, and space styling with a warm, cozy aesthetic.</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 id="portfolio">Portfolio</h3>
+        <div class="portfolio-grid">
+          <div class="portfolio-item">Drawing 1</div>
+          <div class="portfolio-item">Stage Setup</div>
+          <div class="portfolio-item">Website Sample</div>
+          <div class="portfolio-item">Wedding Decor 1</div>
+          <div class="portfolio-item">Portrait 2</div>
+          <div class="portfolio-item">Album Cover</div>
+        </div>
+
+        <div style="margin-top:12px;font-size:13px;color:var(--muted)">Tip: Replace the placeholder items with photos of your real work (just drop images in the same folder and update the HTML).</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top:18px" class="card">
+    <h3>Why choose me?</h3>
+    <p style="color:var(--muted);margin:8px 0">I combine musical energy, visual detail, and practical web/design skills to deliver creative work that resonates with people — whether it's music for a crowd or a beautifully decorated wedding space.</p>
+  </div>
+</div>
+
+  </main>  <footer>
+    © <span id="year"></span> Desire Mapira — Phone: 0882772100 • Email: desiremapira@gmail.com
+  </footer>  <script>
+    // small script to load portrait placeholder and make vCard
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // If you want to use the real portrait, name it 'portrait.jpg' and place in same folder.
+    // The page gracefully falls back to a neutral background if not provided.
+
+    document.getElementById('downloadVCard').addEventListener('click', function(){
+      const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:Mapira;Desire;;Mr.\nFN:Desire Mapira\nORG:Independent Artist\nTEL;TYPE=CELL:+265882772100\nEMAIL;TYPE=INTERNET:desiremapira@gmail.com\nEND:VCARD`;
+      const blob = new Blob([vcard], {type: 'text/vcard'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'Desire_Mapira.vcf'; document.body.appendChild(a); a.click(); a.remove();
+      URL.revokeObjectURL(url);
+    });
+  </script></body>
+</html>
