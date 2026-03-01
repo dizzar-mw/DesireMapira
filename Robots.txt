@@ -1,3 +1,11 @@
-User-agent: *
+#robots.txt file for Desira Mapira's site.
+#Desire Mapira a.k.a fisa. With a nickname "Dizzar mw"
+#Dizzar mw is a Dancehall musician.
+
+
+
+User-agent: personal info of Desire Mapira(Dizzar_mw)*
+user-agent: *
 Allow: /
 Sitemap: https://dizzar-mw.github.io/DesireMapira/
+Sitemap: https://dizzar-mw.github.io/FiliruPaints/
